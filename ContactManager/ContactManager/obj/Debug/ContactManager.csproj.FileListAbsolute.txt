@@ -50,3 +50,5 @@ C:\ASAPDev\practice\ContactManager\ContactManager\bin\Swashbuckle.Core.dll
 C:\ASAPDev\practice\ContactManager\ContactManager\bin\WebActivatorEx.dll
 C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.xml
 C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.SqlServer.xml
+C:\ASAPDev\practice\ContactManager\ContactManager\obj\Debug\ContactManager.Migrations.initial.resources
+C:\ASAPDev\practice\ContactManager\ContactManager\obj\Debug\ContactManager.csproj.GenerateResource.Cache
