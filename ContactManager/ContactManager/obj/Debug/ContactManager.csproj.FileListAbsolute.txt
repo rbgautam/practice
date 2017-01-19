@@ -44,3 +44,9 @@ C:\ASAPDev\practice\ContactManager\ContactManager\bin\Antlr3.Runtime.pdb
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Debug\ContactManager.csprojResolveAssemblyReference.cache
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Debug\ContactManager.dll
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Debug\ContactManager.pdb
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.SqlServer.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\Swashbuckle.Core.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\WebActivatorEx.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.xml
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.SqlServer.xml
