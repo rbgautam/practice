@@ -20,7 +20,8 @@ namespace ContactManager.Controllers
         // GET: api/Contacts
         public IQueryable<Contact> GetContacts()
         {
-            return db.Contacts;
+            var data = db.Contacts;
+            return data;
         }
 
         // GET: api/Contacts/5
@@ -36,7 +37,7 @@ namespace ContactManager.Controllers
             return Ok(contact);
         }
 
-        [ValidateHttpAntiForgeryToken]
+        //[ValidateHttpAntiForgeryToken]
         // PUT: api/Contacts/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutContact(int id, Contact contact)
@@ -72,7 +73,7 @@ namespace ContactManager.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        [ValidateHttpAntiForgeryToken]
+        //[ValidateHttpAntiForgeryToken]
         // POST: api/Contacts
         [ResponseType(typeof(Contact))]
         public IHttpActionResult PostContact(Contact contact)
@@ -88,7 +89,7 @@ namespace ContactManager.Controllers
             return CreatedAtRoute("DefaultApi", new { id = contact.ContactId }, contact);
         }
 
-        [ValidateHttpAntiForgeryToken]
+        //[ValidateHttpAntiForgeryToken]
         // DELETE: api/Contacts/5
         [ResponseType(typeof(Contact))]
         public IHttpActionResult DeleteContact(int id)

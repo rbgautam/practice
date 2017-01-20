@@ -45,7 +45,7 @@ namespace ContactManager.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ContactId,Name,Address,City,State,Zip,Email,Twitter,Self")] Contact contact)
         {
             if (ModelState.IsValid)
@@ -77,7 +77,7 @@ namespace ContactManager.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ContactId,Name,Address,City,State,Zip,Email,Twitter,Self")] Contact contact)
         {
             if (ModelState.IsValid)
@@ -106,7 +106,7 @@ namespace ContactManager.Controllers
 
         // POST: Home/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
             Contact contact = db.Contacts.Find(id);

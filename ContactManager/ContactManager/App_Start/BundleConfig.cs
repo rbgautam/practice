@@ -22,6 +22,10 @@ namespace ContactManager
             bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
                         "~/Scripts/knockout-3.4.1.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/custom").Include(
+                        "~/Scripts/VM/ContactsViewModel.js",
+                        "~/Scripts/antiforgerytoken.js"
+                        ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
