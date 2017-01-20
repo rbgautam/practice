@@ -4,6 +4,7 @@
 }
 @section Scripts {
     @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/custom")
     <script type="text/javascript">
         @functions{
             public string TokenHeaderValue()
@@ -13,31 +14,7 @@
                 return cookieToken + ":" + formToken;                
             }
         }
-         function ContactsViewModel() {
-             var self = this;
-             self.contacts = ko.observableArray([]);
-             self.addContact = function () {
-                 $.post("api/contacts",
-                     $("#addContact").serialize(),
-                     function (value) {
-                         self.contacts.push(value);
-                     },
-                     "json");
-             }
-             self.removeContact = function (contact) {
-                 $.ajax({
-                     type: "DELETE",
-                     url: contact.Self,
-                     success: function () {
-                         self.contacts.remove(contact);
-                     }
-                 });
-             }
-
-             $.getJSON("api/contacts", function (data) {
-                 self.contacts(data);
-             });
-         }
+         
          ko.applyBindings(new ContactsViewModel());
     </script>
 }

@@ -4,7 +4,7 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\ASAPDev\\practice\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\ASAPDev\\practice\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="ContactManagerContext-Web.config Connection String" description="" value="Data Source=tcp:rbgautam.database.windows.net,1433;Initial Catalog=DemoDb;User Id=null@rbgautam.database.windows.net;Password=12bosejuly" tags="">
+  <parameter name="ContactManagerContext-Web.config Connection String" description="" value="Data Source=rbgautam.database.windows.net;Initial Catalog=ContactDb;User ID=rbgautam;Password=12@Bosejuly" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\ASAPDev\\practice\\ContactManager\\ContactManager\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContactManagerContext']/@connectionString" />
   </parameter>
 </parameters>
