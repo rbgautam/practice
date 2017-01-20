@@ -46,3 +46,9 @@ C:\ASAPDev\practice\ContactManager\ContactManager\bin\Antlr3.Runtime.pdb
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Release\ContactManager.csprojResolveAssemblyReference.cache
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Release\ContactManager.dll
 C:\ASAPDev\practice\ContactManager\ContactManager\obj\Release\ContactManager.pdb
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.SqlServer.dll
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.xml
+C:\ASAPDev\practice\ContactManager\ContactManager\bin\EntityFramework.SqlServer.xml
+C:\ASAPDev\practice\ContactManager\ContactManager\obj\Release\ContactManager.Migrations.initial.resources
+C:\ASAPDev\practice\ContactManager\ContactManager\obj\Release\ContactManager.csproj.GenerateResource.Cache

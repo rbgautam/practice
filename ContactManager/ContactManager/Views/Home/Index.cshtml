@@ -5,6 +5,14 @@
 @section Scripts {
     @Scripts.Render("~/bundles/knockout")
     <script type="text/javascript">
+        @functions{
+            public string TokenHeaderValue()
+            {
+                string cookieToken, formToken;
+                AntiForgery.GetTokens(null, out cookieToken, out formToken);
+                return cookieToken + ":" + formToken;                
+            }
+        }
          function ContactsViewModel() {
              var self = this;
              self.contacts = ko.observableArray([]);
