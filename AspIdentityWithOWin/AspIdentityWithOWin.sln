@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIdentityWithOWin", "AspIdentityWithOWin\AspIdentityWithOWin.csproj", "{1A3C9D8E-760C-44E1-B34D-EDD7911BB02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIdentityWithOWin.Tests", "AspIdentityWithOWin.Tests\AspIdentityWithOWin.Tests.csproj", "{0F851A65-8DDB-4B22-81A0-2C8743C506CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3C9D8E-760C-44E1-B34D-EDD7911BB02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3C9D8E-760C-44E1-B34D-EDD7911BB02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3C9D8E-760C-44E1-B34D-EDD7911BB02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3C9D8E-760C-44E1-B34D-EDD7911BB02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F851A65-8DDB-4B22-81A0-2C8743C506CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F851A65-8DDB-4B22-81A0-2C8743C506CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F851A65-8DDB-4B22-81A0-2C8743C506CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F851A65-8DDB-4B22-81A0-2C8743C506CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
